@@ -1,0 +1,11 @@
+{
+  "iss": "https://localhost:8443/realms/master",
+  "preferred_username": "ch4mp",
+  "realm_access": {
+    "roles": [
+        "NICE",
+        "AUTHOR"
+  	]
+  },
+  "scope": "openid email"
+}

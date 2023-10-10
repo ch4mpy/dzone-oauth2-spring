@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.c4-soft.dzone-oauth2-spring</groupId>
+		<artifactId>dzone-oauth2-spring-parent</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>..</relativePath>
+	</parent>
+	<groupId>com.c4-soft.dzone-oauth2-spring.with-c4-soft</groupId>
+	<artifactId>dzone-oauth2-spring-c4-parent</artifactId>
+	<packaging>pom</packaging>
+	<description>Parent POM for companion projects of https://dzone.com/articles/spring-oauth2-resource-servers written with spring-addons starter</description>
+
+	<modules>
+		<module>c4-bff</module>
+		<module>c4-greeting-api</module>
+	</modules>
+
+</project>
